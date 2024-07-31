@@ -1,0 +1,122 @@
+body {
+  background: rgb(5, 7, 29);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  color: #bff3f9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+  border: none;
+  transition: ease-out 0.3s;
+}
+button:hover{
+  transition: ease-out 0.3s;
+  background: radial-gradient(circle, rgba(232,174,97,1) 0%, rgba(232,95,192,1) 27%, rgba(176,89,233,1) 49%, rgba(119,119,255,1) 71%, rgba(86,178,231,1) 98%);
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+input{
+  border-radius: 50px !important;
+  height: 20px;
+}
+
+/* Styles du formulaire de connexion */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form{
+  background-color: rgb(124, 124, 124);
+  border-radius: 30px;
+  padding: 30px;
+  width: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.login-input {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-button {
+  width: 50px;
+  height: 30px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.4s ease;
+}
+
+.button_continuer {
+  background:  #56b2e7;
+  height: 30px;
+  padding: 0px 80px;
+  color: #eaeaea;
+  font-size: 1em;
+  margin-top: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button.continuer:hover {
+  background-color: #d9459b;
+}
+
+.login-button.retour {
+  background-color: #dc3545;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-family: 'Century Schoolbook'; /* Changez ceci Ã  la police que vous prÃ©fÃ©rez */
+  font-size: 20px; /* Taille de la police, ajustez selon vos besoins */
+  font-weight: bold;
+}
+
+.login-button.retour:hover {
+  background-color: #c82333;
+}
+
+.logo {
+  margin-top: 50px;
+  height: 200px;
+}
+.logo-title{
+  color: #f4f4f4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4em;
+  margin-top: -15px;
+}
+.banners{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.banner_image{
+  height: 500px;
+}
